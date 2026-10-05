@@ -1,5 +1,3 @@
-# py
-python
 x = 1000
 import time
 
