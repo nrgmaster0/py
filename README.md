@@ -1,10 +1,10 @@
-x = 1000
+import math
 import time
-
+x = 0
 while True:
     time.sleep(0.1)
     x += 1
-    if x.endswith("0"):
-        print("yes")
-    else:
-        print("no")
+    if math.sqrt(x)%1 == 0:
+        print("tamkare kk")
+        print(x)
+        
